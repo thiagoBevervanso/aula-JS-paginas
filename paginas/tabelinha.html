@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aqua;
+            margin-left: 4%;
+            margin-right: 4%;
+        }
+        
+        
+        hr{
+            margin: 40px 0;
+        }
+        .hr1{
+            border: 0;
+            border-top: 4px solid black;
+            margin-top: 1px;
+        }
+        .hr2{
+            border: 0;
+            border-top: 3px solid red;
+            margin-top: 1px;
+        }
+        table{
+            height: 450px;
+            width: 1240px;
+            border-collapse: collapse;
+            border: 2px solid black;
+            
+        }  
+        th, tfoot{
+            padding: 9px;
+            text-align: center;
+            background-color: orangered;
+            color: white;
+            border: 0px;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 9px;
+            text-align: center;
+        }
+        tr.linhaa{
+            background-color:#6666ff;
+        }
+        tr.linhab{
+            background-color: white;
+        }
+        tr.fim{
+        
+            background-color: #6666ff;
+           
+        }
+        tr.inter{
+           
+            background-color: white;
+           
+        }
+        td.dado{
+            background-color: orangered;
+            color: white;
+            
+            
+        }
+        .volta{
+            background-color:orangered;
+             color:white;
+              border: 2px solid black;
+               border-radius: 10%;
+               margin-left: 1197px;
+               padding: 2px;
+
+    
+
+        }
+    </style>
+</head>
+<body>
+    <a class="volta" href="..//paginas/sobreCSS.html"> Voltar</a>
+    <h1>Atividade 23/09</h1>  
+    <hr class="hr1">
+    
+    <h2 style="color:red"> Centro de aprendizado Univel - Horário das aulas</h2>
+    <hr class="hr2">
+    <!--
+        Hierarquia de tabelas(simples)
+             table= tabela
+                    table row= linha de tabela
+                        table header= cabeçalho da tabela
+                                table data= dado da tabela
+    -->
+    <div>
+    <table>
+        <thead>
+            <tr>
+            <th>Horário</th>
+            <th>Segunda</th>
+            <th>Terça</th>
+            <th>Quarta</th>
+            <th>Quinta</th>
+            <th>Sexta</th>
+            <th> Sábado</th>
+            </tr>
+        </thead>
+        <tbody>
+    <tr class="linhaa">
+            <td class="dado">18:30</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+    </tr>
+    <tr class="linhab">
+            <td class="dado">19:20</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+    </tr>
+    <tr class="linhaa">
+            <td class="dado">20:10</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+    </tr>
+    <tr class="inter">
+            <td class="dado">21:00</td>
+            <td>Intervalo</td>
+            <td>Intervalo</td>
+            <td>Intervalo</td>
+            <td>Intervalo</td>
+            <td>Intervalo</td>
+            <td>Intervalo</td>
+    </tr>
+    <tr class="linhaa">
+            <td class="dado">21:10</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+    </tr>
+    <tr class="linhab">
+            <td class="dado">22:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+    </tr>
+    <tr class="fim" >
+            <td class="dado">22:50</td>
+            <td>Termino</td>
+            <td>Termino</td>
+            <td>Termino</td>
+            <td>Termino</td>
+            <td>Termino</td>
+            <td>Termino</td>
+    </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>Horário</th>
+            <th>Segunda</th>
+            <th>Terça</th>
+            <th>Quarta</th>
+            <th>Quinta</th>
+            <th>Sexta</th>
+            <th> Sábado</th>
+        </tr>
+    </tfoot>
+    </table>
+</div>
+    <br>
+    
+
+    
+</body>
+</html>

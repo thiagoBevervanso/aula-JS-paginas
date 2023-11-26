@@ -1,0 +1,128 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+   
+
+}
+
+#menu-h{background-color: rgb(37, 37, 39);
+}
+
+#menu-h ul{
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li{
+    display:inline;
+}
+
+#menu-h ul li a{
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover{
+background-color: rgb(24, 139, 233);
+
+}
+
+
+#menu-h ul li:last-child a{
+    float:right;
+    background-color: rgb(118, 223, 24, 0);
+}
+.left {
+    background-color: rgb(37, 37, 39);
+    position: absolute;
+    left: 0px;
+    width: 82px;
+    padding: 10px;
+}
+.oculto{
+    display: none;
+}
+#esq{
+    margin-left: 0%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-image: linear-gradient(to right, rgba(44, 5, 150, 0.849), rgb(0, 255, 149));
+}
+.cabeca{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.img-cabeca{
+    height: 72px;
+
+}
+.cabeca-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+#texto{
+    border-radius: 8px;
+    background-color: whitesmoke;
+    height: 25px;
+    
+    
+}
+
+.ex{
+    border-radius: 6px;
+    margin-top: 3px;
+    width: 100px;
+    background-color: aquamarine;
+    margin-top: 10px;
+}
+.conteudo-titulo{
+    font-family: 'righteous', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    color:#000039 ;
+}
+
+.conteudo-secundario{
+    border-top: 0.4px solid #000039;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000039;
+    margin-bottom: 16px;
+  }
+
+.rodape-img{
+    height: 280px;
+    
+
+  }
